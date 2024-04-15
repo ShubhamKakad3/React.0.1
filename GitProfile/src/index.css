@@ -1,0 +1,83 @@
+*{
+  background-color: #f5f5f7;
+}
+
+.github-profile-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: center;
+  padding: 10px;
+  /* background-color: #f6f2f2; */
+  /* border: 7px solid rgb(12, 166, 186); */
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.input-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0b0231;
+  color: #f6f2f2;
+  cursor: pointer;
+}
+
+.user {
+  padding: 15px;
+  border-radius: 10px;
+  border: 10px solid #0e3f80;
+}
+
+.avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-left: 400px;
+  border: 4px solid rgb(2, 150, 230);
+}
+
+
+.name-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  /* margin-left: 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  text-decoration: none;
+  /* background-color: #f6f2f2; */
+  
+}
+
+.name-container p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
