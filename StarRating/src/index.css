@@ -1,0 +1,15 @@
+.active {
+  color: hsl(58, 100%, 50%);
+}
+
+.inactive {
+  color: #000000;
+}
+
+.star{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 440px;
+  margin-top: 300px;
+}
